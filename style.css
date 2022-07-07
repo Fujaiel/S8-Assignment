@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @font-face {
+        font-family:Poppins ;
+        src: url('D:\Learning\Website Design\Practices\REDO\S8 Assignment');
+    }
+    font-family:Poppins ;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.hero {
+    background-image: url('Images/Banner.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 400px;
+}
+header {
+    /* border: 1px solid red; */
+    margin: 20px 0 30px 0;
+}
+
+nav {
+    display: inline-block;
+    padding: 20px 0 ;
+    /* border: 1px solid green; */
+    position: relative;
+    bottom: 20px;
+    
+}
+
+ul {
+    list-style: none;
+    
+}
+
+li {
+    display: inline;
+    padding: 20px;
+    
+}
+
+li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+#home {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+#home:hover {
+    color: black;
+}
+
+section h1 {
+    padding-top: 50px;
+    font-size: 50px;
+}
+
+.cards {
+    max-width: 400px;
+    height: 530px;
+    background-color: darkorchid;
+    margin-top: 20px;
+    border-top: 6px solid darkblue;
+}
+
+.card-header{
+    background-image: url('Images/cards.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 400px;
+    height: 290px;
+}
+
+.card-body {
+    padding: 20px 20px 10px 20px;
+    color: white;
+}
+
+.card-body h3 {
+    font-size: 30px;
+}
+
+.card-body p {
+    margin-top: 10px;
+}
+
+.card-body button {
+    margin-top: 20px;
+    border: none;
+    width: 120px;
+    height: 40px;
+    background-color: #28282B;
+    color: white;
+}
+
+.card-body button:hover {
+    background-color: white;
+    color: black;
+}
+
+#card-body-3 {
+ 
+    border-top: 6px solid #FF1493;
+}
+#card-body-4 {
+    background-color:#FF1493;
+    border-top: 6px solid darkgreen;
+    margin-bottom: 50px;
+}
+
+hr {
+    width: 1200px;
+    height: 8px;
+    background-color: black;
+    margin-bottom: 50px;
+}
+
+.destination{
+    
+    margin-bottom: 40px;
+}
+
+.destination h2 {
+    font-size: 100px;
+    padding-bottom: 20px;
+    color: #5D3FD3;
+}
+
+.destination p {
+    font-size: 30px;
+    padding-bottom: 20px;
+    color: #5D3FD3;
+}
+
+.Learn-more {
+    border: none;
+    width: 180px;
+    height: 50px;
+    background-color: #5D3FD3;
+    color: white;
+}
+
+.Learn-more:hover {
+    background-color: #28282B;
+}
+
+footer {
+    margin: 20px 0;
+    width: 1200px;
+    height: 60px;
+    background-color: #28282B;
+    border-left: 6px solid #FF1493;
+}
+
+footer h2 {
+    padding: 20px 0 20px 20px;
+    color: white;
+}
+
+.box {
+    width: 400px;
+    height: 400px;
+    background-color: #28282B;
+    border-top: 10px solid #32b5f6;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 30px;
+    margin: 20px 30px;
+    padding: 200px 150px;
+    display: inline-block;
+}
+
+#box2 {
+    border: none;
+border-left: 12px solid  #4C956C;
+}
+
+#box3 {
+    border: none;
+    border-right: 5px solid #FFBF00;
+}
+
+#box4 {
+    border: none;
+    border-bottom: 12px solid #FA1A2C;
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: #1072BA;
+    padding: 10px;
+    margin: 20px;
+    display: inline-block;
+    color: white;
+}
